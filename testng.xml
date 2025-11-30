@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="SauceDemo Test Suite" parallel="tests" thread-count="3">
+    <listeners>
+        <listener class-name="base.TestListener"/>
+    </listeners>
+
+    <test name="SauceDemo Tests" parallel="methods" thread-count="3">
+        <classes>
+            <class name="tests.SauceDemoTest"/>
+        </classes>
+    </test>
+</suite>
